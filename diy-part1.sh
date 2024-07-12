@@ -96,10 +96,10 @@ mkdir package/small
 pushd package/small
 
 #克隆源码
-#rm -rf feeds/packages/lang/golang.git
+rm -rf package/feeds/luci/luci-app-passwall
 #passwall2
 #git clone -b main --depth 1 https://github.com/xiaorouji/openwrt-passwall2.git
-#git clone -b main --depth 1 https://github.com/bcseputetto/openwrt-passwall.git
+git clone -b main --depth 1 https://github.com/bcseputetto/openwrt-passwall.git
 #mosdns
 # git clone -b v5 --depth 1 https://github.com/sbwml/luci-app-mosdns.git
 #git clone --depth=1 https://github.com/fw876/helloworld.git
